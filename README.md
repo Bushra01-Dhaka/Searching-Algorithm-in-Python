@@ -1,6 +1,6 @@
-# Searching-Algorithm-in-Python
+#🚀 Searching-Algorithm-in-Python
 
-## Binary Search:
+## Binary Search:💫
 Binary search is an efficient algorithm used to find the position of a target value in a sorted array. It works by repeatedly dividing the search interval in half:
 Start with the middle element of the array.
 If the middle element equals the target, return its position.
@@ -30,7 +30,7 @@ item_a = 23
 print("Item is present at index: ", binary_search(sequence_a,item_a))
 ```
 
-## Linear Search:
+## Linear Search:💫
 In Linear Search, we iterate over all the elements of the array and check if it the current element is equal to the target element. If we find any element to be equal to the target element, then return the index of the current element. Otherwise, if no element is equal to the target element, then return -1 as the element is not found. Linear search is also known as sequential search.
 
 ``` python
