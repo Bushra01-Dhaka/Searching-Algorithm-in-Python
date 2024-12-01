@@ -29,3 +29,23 @@ sequence_a = [2,4,6,8,10,16,23,30,45]
 item_a = 23
 print("Item is present at index: ", binary_search(sequence_a,item_a))
 ```
+
+## Linear Search:
+In Linear Search, we iterate over all the elements of the array and check if it the current element is equal to the target element. If we find any element to be equal to the target element, then return the index of the current element. Otherwise, if no element is equal to the target element, then return -1 as the element is not found. Linear search is also known as sequential search.
+
+``` python
+def linear_search(arr, n, item):
+    for i in range(0,n):
+        if arr[i] == item:
+            return i
+    return -1
+
+array = [1,3,8,10,40,23,45,15]
+target_item = 23
+n = len(array)
+result = linear_search(array,n, 23)
+if result == -1:
+    print("The target item is not present in the array")
+else:
+    print("The target item is present at index: ", linear_search(array, n, 23))
+```
